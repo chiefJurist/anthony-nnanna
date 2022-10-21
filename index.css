@@ -4,8 +4,8 @@
 
 /* VARIABLES */
 :root {
-  --primary-color: red;
-  --secondary-color:#44586e;
+  --primary-color: lightblue;
+  --secondary-color:grey;
 }
 
 /* CSS RESET */
