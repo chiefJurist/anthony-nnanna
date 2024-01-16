@@ -5,6 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            function toggleProjects() {
+                var myElement = document.getElementsByClassName('temp');
+                for (let i = 0; i < myElement.length; i++) {
+                    myElement[i].classList.toggle('hide');
+                    
+                }
+
+                var displayElement = document.getElementById('display');
+                displayElement.innerText = displayElement.innerText === "Show More" ? "Show Less" : "Show More";
+            }
+        </script>
         <link rel="stylesheet" type="text/css" href="index.css">
         <title>Anthony Nnanna</title>
     </head>
@@ -33,7 +45,7 @@
                 
                 <div class="projects">
                     <div class="box">
-                        <a target="_blank" href="https://figma-product-design.vercel.app/">
+                        <a target="_blank" href="#">
                             <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
                             <p>
                                 <span class="code">&lt;</span>
@@ -44,94 +56,94 @@
                     </div>
                     
                     <div class="box">
+                        <a target="_blank" href="https://jarsofglory.org/">
+                            <img src="images/jog.png" alt="project-img" class="project-img">
+                            <p>
+                                <span class="code">&lt;</span>
+                                A Non Profit Organization Website
+                                <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="box">
+                        <a target="_blank" href="https://www.dariceandoaksschools.com/">
+                            <img src="images/dao.png" alt="project-img" class="project-img">
+                            <p>
+                                <span class="code">&lt;</span>
+                                A School's Website
+                                <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="box temp hide">
+                        <a target="_blank" href="https://sprucerescind.com/">
+                            <img src="images/sprucerescind.png" alt="project-img" class="project-img">
+                            <p>
+                                <span class="code">&lt;</span>
+                                A Banking App
+                                <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="box temp hide">
+                        <a target="_blank" href="https://www.chidinmannoli.com/" alt="project-img" class="project-img">
+                            <img src="images/cng.png" alt="project-img" class="project-img">
+                            <p>
+                                <span class="code">&lt;</span>
+                                An Art Galery Website
+                                <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="box temp hide">
                         <a target="_blank" href="https://figma-duplicate.vercel.app/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
+                            <img src="images/fda.png" alt="project-img" class="project-img">
                             <p>
                                 <span class="code">&lt;</span>
-                                Figma Web-App
-                                <span class="code">/&gt;</span>
-                            </p>
-                        </a>
-                    </div>
-
-                    <div class="box">
-                        <a target="_blank" href="https://anagar-foods.vercel.app/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
-                            <p>
-                                <span class="code">&lt;</span>
-                                Official Website For A Food Agency
-                                <span class="code">/&gt;</span>
-                            </p>
-                        </a>
-                    </div>
-
-                    <div class="box">
-                        <a target="_blank" href="https://dariceandoaksschools.com/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
-                            <p>
-                                <span class="code">&lt;</span>
-                                Official Website For A School
-                                <span class="code">/&gt;</span>
-                            </p>
-                        </a>
-                    </div>
-
-                    <div class="box">
-                        <a target="_blank" href="https://calculator-kappa-sable.vercel.app/" alt="project-img" class="project-img">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
-                            <p>
-                                <span class="code">&lt;</span>
-                                Calculator App
-                                <span class="code">/&gt;</span>
-                            </p>
-                        </a>
-                    </div>
-
-                    <div class="box">
-                        <a target="_blank" href="https://anthony-nnanna.vercel.app/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
-                            <p>
-                                <span class="code">&lt;</span>
-                                Personal PortFolio
+                                A Duplicate of Figma
                                 <span class="code">/&gt;</span>
                             </p>
                         </a>
                     </div>
                     
-                    <div class="box">
+                    <div class="box temp hide">
+                        <a target="_blank" href="https://calculator-kappa-sable.vercel.app/">
+                            <img src="images/calculator.png" alt="project-img" class="project-img">
+                            <p>
+                                <span class="code">&lt;</span>
+                                A Calculator App
+                                <span class="code">/&gt;</span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="box temp hide">
                         <a target="_blank" href="https://figma-product-design.vercel.app/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
+                            <img src="images/fpd.png" alt="project-img" class="project-img">
                             <p>
                                 <span class="code">&lt;</span>
-                                Figma Product Design Page
+                                A Product Design From Upwork
                                 <span class="code">/&gt;</span>
                             </p>
                         </a>
                     </div>
 
-                    <div class="box">
-                        <a target="_blank" href="https://survey-form-jet.vercel.app/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
+                    <div class="box temp hide">
+                        <a target="_blank" href="https://reaction-timer-game-nine.vercel.app/">
+                            <img src="images/rtg.png" alt="project-img" class="project-img">
                             <p>
                                 <span class="code">&lt;</span>
-                                Survey Form
+                                A VUE Reaction Timer Game
                                 <span class="code">/&gt;</span>
                             </p>
                         </a>
                     </div>
-
-                    <!-- <div class="box">
-                        <a target="_blank" href="https://dashboard1-mu.vercel.app/">
-                            <img src="images/survey-form-background.jpeg" alt="project-img" class="project-img">
-                            <p>
-                                <span class="code">&lt;</span>
-                                Figma Dashboard
-                                <span class="code">/&gt;</span>
-                            </p>
-                        </a>
-                    </div> -->
                 </div>
-                <a href="https://github.com/chiefJurist" class="btn">Show More</a>
+                <div id="display" class="btn" onclick="toggleProjects()">Show More</div>
             </div>
         </section>
 
@@ -142,10 +154,6 @@
             <p>Feel free to contact me on any of the following handles</p>
             <div class="social">
                 <div>
-                <a target="_blank" href="https://www.facebook.com/anthony.nnanna.982">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    Facebook
-                </a>
                 <a id="profile-link" target="_blank" href="https://github.com/chiefJurist">
                     <ion-icon name="logo-github"></ion-icon>
                     Github
@@ -154,14 +162,10 @@
                     <ion-icon name="logo-twitter"></ion-icon>
                     Twitter
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/anthony-nnanna-666085234">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                    LinkedIn
-                </a>
-                <a href="#">
+                <a href="mailto:anthonynnanna001@gmail.com@gmail.com">
                     @ Mail
                 </a>
-                <a href="#">
+                <a href="tel:07010028679">
                     <ion-icon name="phone-portrait-outline"></ion-icon>
                     Call Me
                 </a>
@@ -173,9 +177,7 @@
         <!-- FOOTER SECTION -->
         <footer id="main-footer">
             <div class="container">
-                <p id="creator">
-                    This site  was created by <a href="https://github.com/FreeCodeCamp-Solutions/">Anthony Nnanna</a>
-                </p>
+                <p id="creator"> This site  was created by Anthony Nnanna </p>
                 <p>&copy; Copyright Free</p>
             </div>
         </footer>
