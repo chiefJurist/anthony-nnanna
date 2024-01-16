@@ -4,8 +4,8 @@
 
 /* VARIABLES */
 :root {
-  --primary-color: lightblue;
-  --secondary-color:grey;
+  --primary-color: #98fb98;
+  --secondary-color: grey;
 }
 
 /* CSS RESET */
@@ -35,7 +35,7 @@ img {
   overflow: hidden;
 }
 
-.btn {
+#display {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 700;
@@ -47,16 +47,18 @@ img {
   border-radius: 3px;
   background-color: var(--primary-color);
   transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
-.btn:hover {
+#display:hover {
   background-color: #444;
 }
 
 /* ABOUT PAGE */
 #about {
   height: 100vh;
-  background-color: #444;
+  background-image: url('images/survey-form-background.jpeg');
+  background-position: center;
 }
 
 #navbar {
@@ -84,7 +86,7 @@ img {
 }
 
 #navbar ul a:hover {
-  background-color: #444;
+  background-color: grey;
 }
 
 #about .container {
@@ -166,6 +168,9 @@ img {
   text-align: center;
   color: #333;
 }
+.project-img{
+  height: 300px;
+}
 
 
 .code {
@@ -219,6 +224,10 @@ img {
 
 #contact .container .social>div a:hover {
   transform: translateY(-5px);
+}
+
+.hide {
+  display: none;
 }
 
 
