@@ -64,7 +64,7 @@ img {
 #navbar {
   background-color: var(--primary-color);
   color: #fff;
-  padding: 0rem 3rem;
+  padding: 0rem 5rem;
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -78,7 +78,7 @@ img {
 
 #navbar ul a {
   display: inline-block;
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 1.5rem;
   text-decoration: none;
   color: #fff;
   font-size: 1.4rem;
@@ -118,7 +118,7 @@ img {
 #projects {
   text-align: center;
   width: 100%;
-  padding: 7rem .1rem;
+  padding: 7rem 1rem;
   background-color: var(--secondary-color);
 }
 
