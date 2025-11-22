@@ -23,7 +23,9 @@
                 <div
                     class="group relative bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
                 >
-                    <div class="h-56 bg-linear-to-br from-indigo-500 to-purple-600"></div>
+                    <div>
+                        <img src="/public/img/truvotrade.png" alt="truvotrade" />
+                    </div>
                     <div class="p-8 lg:p-10">
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-white">TruvoTrade</h3>
                         <p class="mt-2 text-indigo-600 dark:text-indigo-400 font-semibold">
@@ -87,7 +89,9 @@
                 <div
                     class="group relative bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
                 >
-                    <div class="h-56 bg-linear-to-br from-emerald-500 to-teal-600"></div>
+                    <div>
+                        <img src="/public/img/ruul.png" alt="ruul" />
+                    </div>
                     <div class="p-8 lg:p-10">
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Ruul</h3>
                         <p class="mt-2 text-emerald-600 dark:text-emerald-400 font-semibold">
@@ -151,7 +155,9 @@
                 <div
                     class="group relative bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3"
                 >
-                    <div class="h-56 bg-linear-to-br from-cyan-500 to-blue-600"></div>
+                    <div>
+                        <img src="/public/img/koinpark.png" alt="koinpark" />
+                    </div>
                     <div class="p-8 lg:p-10">
                         <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Koinpark</h3>
                         <p class="mt-2 text-cyan-600 dark:text-cyan-400 font-semibold">
