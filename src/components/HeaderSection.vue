@@ -58,6 +58,11 @@ onMounted(() => {
                         >About</a
                     >
                     <a
+                        href="#tech"
+                        class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition"
+                        >Stack</a
+                    >
+                    <a
                         href="#projects"
                         class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition"
                         >Projects</a
@@ -161,6 +166,9 @@ onMounted(() => {
                     >
                     <a href="#about" @click="mobileMenuOpen = false" class="mobile-menu-link"
                         >About</a
+                    >
+                    <a href="#tech" @click="mobileMenuOpen = false" class="mobile-menu-link"
+                        >Stack</a
                     >
                     <a href="#projects" @click="mobileMenuOpen = false" class="mobile-menu-link"
                         >Projects</a
