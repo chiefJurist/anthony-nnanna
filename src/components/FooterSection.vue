@@ -6,7 +6,7 @@
                 <div class="text-center md:text-left">
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Anthony Nnanna</h3>
                     <p class="mt-2 text-gray-600 dark:text-gray-400">
-                        Senior Full-Stack Engineer · Vue + Laravel + PHP
+                        Senior Full-Stack Engineer<br />Vue · Laravel · PHP · Rust
                     </p>
                 </div>
 
@@ -25,6 +25,12 @@
                         About
                     </a>
                     <a
+                        href="#tech"
+                        class="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+                    >
+                        Stack
+                    </a>
+                    <a
                         href="#projects"
                         class="text-gray-600 dark:text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition"
                     >
@@ -40,7 +46,7 @@
 
                 <!-- Right: Social Icons -->
                 <div class="flex justify-center md:justify-end gap-5">
-                    <a
+                    <!-- <a
                         href="https://linkedin.com/in/anthonynnanna"
                         target="_blank"
                         class="p-3 bg-gray-200 dark:bg-gray-800 rounded-xl hover:bg-indigo-100 dark:hover:bg-indigo-900/50 transition"
@@ -54,9 +60,9 @@
                                 d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
                             />
                         </svg>
-                    </a>
+                    </a> -->
                     <a
-                        href="https://github.com/anthonynnanna"
+                        href="https://github.com/chiefJurist"
                         target="_blank"
                         class="p-3 bg-gray-200 dark:bg-gray-800 rounded-xl hover:bg-indigo-100 dark:hover:bg-indigo-900/50 transition"
                     >
