@@ -83,7 +83,7 @@
             <div
                 class="mt-12 pt-8 border-t border-gray-300 dark:border-gray-700 text-center text-sm text-gray-500 dark:text-gray-500"
             >
-                © 2025 Anthony Nnanna. All rights reserved. Built with Vue 3 + Tailwind CSS + ❤️
+                © 2025 Anthony Nnanna. All rights reserved.
             </div>
         </div>
     </footer>
