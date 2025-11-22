@@ -1,3 +1,34 @@
+<script setup>
+import { ref, onMounted } from 'vue'
+
+const isDark = ref(false)
+const mobileMenuOpen = ref(false)
+
+const toggleDarkMode = () => {
+    isDark.value = !isDark.value
+    if (isDark.value) {
+        document.documentElement.classList.add('dark')
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+    localStorage.setItem('theme', isDark.value ? 'dark' : 'light')
+}
+
+onMounted(() => {
+    const savedTheme = localStorage.getItem('theme')
+    if (
+        savedTheme === 'dark' ||
+        (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+    ) {
+        isDark.value = true
+        document.documentElement.classList.add('dark')
+    } else {
+        isDark.value = false
+        document.documentElement.classList.remove('dark')
+    }
+})
+</script>
+
 <template>
     <header
         class="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-950/90 backdrop-blur-md border-b border-gray-200/50 dark:border-gray-800/50"
@@ -145,37 +176,6 @@
         </div>
     </header>
 </template>
-
-<script setup>
-import { ref, onMounted } from 'vue'
-
-const isDark = ref(false)
-const mobileMenuOpen = ref(false)
-
-const toggleDarkMode = () => {
-    isDark.value = !isDark.value
-    if (isDark.value) {
-        document.documentElement.classList.add('dark')
-    } else {
-        document.documentElement.classList.remove('dark')
-    }
-    localStorage.setItem('theme', isDark.value ? 'dark' : 'light')
-}
-
-onMounted(() => {
-    const savedTheme = localStorage.getItem('theme')
-    if (
-        savedTheme === 'dark' ||
-        (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
-        isDark.value = true
-        document.documentElement.classList.add('dark')
-    } else {
-        isDark.value = false
-        document.documentElement.classList.remove('dark')
-    }
-})
-</script>
 
 <style scoped>
 header {
