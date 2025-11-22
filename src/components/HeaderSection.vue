@@ -73,7 +73,7 @@ onMounted(() => {
                 <div class="flex items-center gap-4">
                     <button
                         @click="toggleDarkMode"
-                        class="p-3 rounded-xl bg-gray-100 dark:bg-gray-800/70 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+                        class="cursor-pointer p-3 rounded-xl bg-gray-100 dark:bg-gray-800/70 text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition"
                         aria-label="Toggle dark mode"
                     >
                         <svg
@@ -143,37 +143,34 @@ onMounted(() => {
         </div>
 
         <!-- Mobile Menu -->
-        <div
-            v-if="mobileMenuOpen"
-            class="md:hidden bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800"
+        <transition
+            enter-active-class="transition ease-out duration-500"
+            enter-from-class="transform -translate-y-10 opacity-0"
+            enter-to-class="transform translate-y-0 opacity-100"
+            leave-active-class="transition ease-in duration-500"
+            leave-from-class="transform translate-y-0 opacity-100"
+            leave-to-class="transform -translate-y-10 opacity-0"
         >
-            <div class="px-6 pt-4 pb-6 space-y-3">
-                <a
-                    href="#hero"
-                    @click="mobileMenuOpen = false"
-                    class="block text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-                    >Home</a
-                >
-                <a
-                    href="#about"
-                    @click="mobileMenuOpen = false"
-                    class="block text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-                    >About</a
-                >
-                <a
-                    href="#projects"
-                    @click="mobileMenuOpen = false"
-                    class="block text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-                    >Projects</a
-                >
-                <a
-                    href="#contact"
-                    @click="mobileMenuOpen = false"
-                    class="block text-lg font-medium text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-                    >Contact</a
-                >
+            <div
+                v-if="mobileMenuOpen"
+                class="md:hidden bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800"
+            >
+                <div class="px-6 pt-4 pb-6 space-y-3">
+                    <a href="#hero" @click="mobileMenuOpen = false" class="mobile-menu-link"
+                        >Home</a
+                    >
+                    <a href="#about" @click="mobileMenuOpen = false" class="mobile-menu-link"
+                        >About</a
+                    >
+                    <a href="#projects" @click="mobileMenuOpen = false" class="mobile-menu-link"
+                        >Projects</a
+                    >
+                    <a href="#contact" @click="mobileMenuOpen = false" class="mobile-menu-link"
+                        >Contact</a
+                    >
+                </div>
             </div>
-        </div>
+        </transition>
     </header>
 </template>
 
