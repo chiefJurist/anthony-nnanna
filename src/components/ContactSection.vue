@@ -1,5 +1,8 @@
 <template>
-    <section id="contact" class="py-24 lg:py-32 bg-white dark:bg-gray-900">
+    <section
+        id="contact"
+        class="py-24 lg:py-32 bg-white dark:bg-gray-900 transition-colors duration-500"
+    >
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Section Title -->
             <div class="text-center mb-16">
@@ -13,7 +16,7 @@
                 ></div>
                 <p class="mt-6 text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
                     Currently open to new challenges (contract or full-time). If you're building
-                    something that needs to scale, stay fast, and never break in production — let's
+                    something that needs to scale, stay fast, and never break in production, let's
                     talk.
                 </p>
             </div>
@@ -51,12 +54,12 @@
                                         href="mailto:anthony.nnanna@proton.me"
                                         class="text-lg font-semibold text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition"
                                     >
-                                        anthony.nnanna@proton.me
+                                        anthonynnannac@gmail.com
                                     </a>
                                 </div>
                             </div>
 
-                            <div class="flex items-center gap-4">
+                            <!-- <div class="flex items-center gap-4">
                                 <div class="p-3 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl">
                                     <svg
                                         class="w-6 h-6 text-indigo-600 dark:text-indigo-400"
@@ -80,6 +83,33 @@
                                         linkedin.com/in/anthonynnanna
                                     </a>
                                 </div>
+                            </div> -->
+
+                            <div class="flex items-center gap-4">
+                                <div class="p-3 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl">
+                                    <svg
+                                        class="w-6 h-6 text-indigo-600 dark:text-indigo-400"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            fill="currentColor"
+                                            fill-rule="evenodd"
+                                            d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm-.334 3.5a.75.75 0 0 0-.338 1.154l5.614 7.45l-5.915 6.345l-.044.051H6.03l4.83-5.179l3.712 4.928a.75.75 0 0 0 .337.251h4.422a.75.75 0 0 0 .336-1.154l-5.614-7.45L20.017 4.5h-2.05l-4.83 5.18l-3.714-4.928a.75.75 0 0 0-.337-.252zm10.88 13.548L6.431 5.952H8.45l9.114 12.095z"
+                                            clip-rule="evenodd"
+                                        />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <div class="text-sm text-gray-500 dark:text-gray-500">𝕏</div>
+                                    <a
+                                        href="https://x.com/chiefJurist"
+                                        target="_blank"
+                                        class="text-lg font-semibold text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+                                    >
+                                        x.com/chiefJurist
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="flex items-center gap-4">
@@ -99,11 +129,11 @@
                                         GitHub
                                     </div>
                                     <a
-                                        href="https://github.com/anthonynnanna"
+                                        href="https://github.com/chiefjurist"
                                         target="_blank"
                                         class="text-lg font-semibold text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition"
                                     >
-                                        github.com/anthonynnanna
+                                        github.com/chiefJurist
                                     </a>
                                 </div>
                             </div>
@@ -113,22 +143,24 @@
                     <!-- Resume Download -->
                     <div class="pt-6">
                         <a
-                            href="/Anthony_Nnanna_Resume.pdf"
+                            href="/Anthony-Nnanna.pdf"
                             download
                             class="inline-flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 text-white font-semibold rounded-xl shadow-lg transition transform hover:-translate-y-0.5"
                         >
                             <svg
-                                class="w-5 h-5"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 100 100"
                             >
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M4 16v1a3 3h12v-3-1m-5-13l5 5m-5-5v11"
-                                ></path>
+                                    fill="currentColor"
+                                    d="M84.514 49.615H67.009a4.91 4.91 0 0 0-4.679 3.406a12.92 12.92 0 0 1-12.329 8.983a12.92 12.92 0 0 1-12.329-8.983a4.92 4.92 0 0 0-4.681-3.406H15.486a4.92 4.92 0 0 0-4.919 4.919v28.054a4.92 4.92 0 0 0 4.919 4.917h69.028a4.92 4.92 0 0 0 4.919-4.917V54.534c0-2.719-2.2-4.919-4.919-4.919"
+                                />
+                                <path
+                                    fill="currentColor"
+                                    d="M48.968 52.237c.247.346.651.553 1.076.553h.003c.428 0 .826-.207 1.076-.558l13.604-19.133a1.33 1.33 0 0 0 .096-1.374a1.32 1.32 0 0 0-1.177-.716h-6.399V13.821c0-.735-.593-1.326-1.323-1.326H44.078c-.732 0-1.323.591-1.323 1.326v17.188h-6.404a1.323 1.323 0 0 0-1.076 2.09z"
+                                />
                             </svg>
                             Download Resume (PDF)
                         </a>

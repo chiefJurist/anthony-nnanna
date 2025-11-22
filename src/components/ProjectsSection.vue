@@ -1,5 +1,8 @@
 <template>
-    <section id="projects" class="py-24 lg:py-32 bg-gray-50 dark:bg-gray-950">
+    <section
+        id="projects"
+        class="py-24 lg:py-32 bg-gray-50 dark:bg-gray-950 transition-colors duration-500"
+    >
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Section Title -->
             <div class="text-center mb-16">
