@@ -100,7 +100,7 @@ const sendEmail = async () => {
                                 </div>
                             </div>
 
-                            <!-- <div class="flex items-center gap-4">
+                            <div class="flex items-center gap-4">
                                 <div class="p-3 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl">
                                     <svg
                                         class="w-6 h-6 text-indigo-600 dark:text-indigo-400"
@@ -117,14 +117,14 @@ const sendEmail = async () => {
                                         LinkedIn
                                     </div>
                                     <a
-                                        href="https://linkedin.com/in/anthonynnanna"
+                                        href="https://www.linkedin.com/in/anthony-nnanna-966663392/"
                                         target="_blank"
                                         class="text-lg font-semibold text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition"
                                     >
-                                        linkedin.com/in/anthonynnanna
+                                        linkedin.com/in/anthony-nnanna
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <div class="flex items-center gap-4">
                                 <div class="p-3 bg-indigo-100 dark:bg-indigo-900/50 rounded-xl">
