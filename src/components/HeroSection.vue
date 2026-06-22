@@ -62,10 +62,6 @@
     </section>
 </template>
 
-<script setup>
-// No script needed here – dark mode is handled globally by AppHeader
-</script>
-
 <style scoped>
 section {
     font-family:

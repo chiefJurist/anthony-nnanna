@@ -6,7 +6,7 @@
                 <div class="text-center md:text-left">
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Anthony Nnanna</h3>
                     <p class="mt-2 text-gray-600 dark:text-gray-400">
-                        Senior Full-Stack Engineer<br />Vue · Laravel · PHP · Rust
+                        Senior Full-Stack Engineer<br />Vue · Laravel · PHP · Devops
                     </p>
                 </div>
 
@@ -83,7 +83,7 @@
             <div
                 class="mt-12 pt-8 border-t border-gray-300 dark:border-gray-700 text-center text-sm text-gray-500 dark:text-gray-500"
             >
-                © 2025 Anthony Nnanna. All rights reserved.
+                © 2026 Anthony Nnanna. All rights reserved.
             </div>
         </div>
     </footer>
