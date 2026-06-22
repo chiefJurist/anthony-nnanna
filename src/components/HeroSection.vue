@@ -6,19 +6,30 @@
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
             <!-- Left Text Column -->
             <div class="text-center md:text-left">
+                <div class="flex items-center gap-2 justify-center md:justify-start mb-4">
+                    <span class="relative flex h-3 w-3">
+                        <span
+                            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"
+                        ></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                    </span>
+                    <span class="text-sm font-medium text-green-600 dark:text-green-400">
+                        Available for new opportunities
+                    </span>
+                </div>
                 <h1
                     class="text-4xl lg:text-5xl font-black text-gray-900 dark:text-white tracking-tight leading-tight"
                 >
                     Anthony Nnanna
                 </h1>
                 <h2 class="mt-4 text-xl lg:text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-                    Senior Full-Stack Engineer <br />
-                    (Vue + Laravel + PHP + DevOps)
+                    Senior Full-Stack Engineer. <br />
+                    (Vue.js + Laravel + PHP + DevOps)
                 </h2>
 
                 <p class="mt-8 lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                     I design and build full-stack web applications that are fast, maintainable, and
-                    built to scale from elegant front-end experiences to robust back-end
+                    built to scale, from elegant front-end experiences to robust back-end
                     architecture and production-ready DevOps pipelines.
                 </p>
 
