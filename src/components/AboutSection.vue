@@ -21,33 +21,36 @@
                 <!-- Text Column -->
                 <div class="space-y-8">
                     <p class="lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                        I'm a Senior Full-Stack Engineer who builds systems that don't just work.<br />
-                        They perform under real pressure and scale without breaking. I specialize in
-                        Vue.js + Laravel stacks and have spent the last 5+ years shipping
-                        production-grade fintech, trading platforms, and multi-tenant marketplaces
-                        that handle serious volume.
+                        I'm a Senior Full-Stack Developer who builds systems that don't just work,
+                        they perform under real pressure and scale without breaking. I specialise in
+                        Vue.js and Laravel stacks and have spent the last 7+ years shipping
+                        production-grade web applications for startups, agencies, and NGOs across
+                        the US and beyond.
                     </p>
 
                     <p class="lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                        I lead architecture decisions, design payout engines, real-time dashboards,
-                        multi-tenant systems, and event-driven workflows. I write code that is
-                        clean, tested, documented, and fast because I know the next person
-                        maintaining it (or scaling it to 10× traffic) will thank me.
+                        I own full delivery cycles from architecture decisions and API design to
+                        deployment and server infrastructure. I've built real-time trading engines
+                        with atomic concurrency handling, headless CMS platforms, custom donation
+                        and booking systems, and multi-client codebases managed across concurrent
+                        projects without dropping quality or consistency.
                     </p>
 
                     <p
                         class="lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed font-medium"
                     >
-                        I care about measurable outcomes: 40% faster payout cycles, sub-300ms
-                        real-time updates, &lt; 0.5% checkout failure rates, 60% faster incident
-                        detection improvement. These aren't marketing numbers, they're results I've
-                        delivered in production.
+                        I lead feature-planning conversations directly with business owners and
+                        clients, translating requirements into clean technical specs and
+                        maintainable implementations. I write code that is tested, documented, and
+                        structured because the next developer scaling it or the client depending on
+                        it at 2am deserves nothing less. PHPUnit, Pest, CI/CD pipelines, GitHub
+                        Actions; these aren't afterthoughts, they're part of how I ship.
                     </p>
 
                     <p class="lg:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                        When I'm not coding, I'm usually deep in system design, refactoring legacy
-                        codebases into something maintainable, mentoring mid-level devs, or setting
-                        up CI/CD pipelines that actually work on Fridays.
+                        When I'm not coding, I'm deep in system design, improving deployment
+                        workflows, or refining the architecture of whatever I'm currently building,
+                        because clean, fast, and reliable isn't a goal, it's the baseline.
                     </p>
                 </div>
 
@@ -58,13 +61,13 @@
                         class="bg-white dark:bg-gray-900/90 border border-gray-200 dark:border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
                     >
                         <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">
-                            40%
+                            48hrs
                         </div>
                         <div class="mt-2 text-gray-900 dark:text-white font-semibold">
-                            Faster payout cycles
+                            Concurrency-safe trading engine delivered.
                         </div>
                         <div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                            TruvoTrade hedge-fund platform
+                            Limit-Order Exchange Engine - technical assessment
                         </div>
                     </div>
 
@@ -73,13 +76,13 @@
                         class="bg-white dark:bg-gray-900/90 border border-gray-200 dark:border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
                     >
                         <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">
-                            &lt; 0.5%
+                            7+
                         </div>
                         <div class="mt-2 text-gray-900 dark:text-white font-semibold">
-                            Checkout/order failure rate
+                            Years shipping production web applications.
                         </div>
                         <div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                            Ruul multi-tenant marketplace
+                            Gigabyte Developers, Sourcedware, Jars of Glory NGO
                         </div>
                     </div>
 
@@ -88,13 +91,13 @@
                         class="bg-white dark:bg-gray-900/90 border border-gray-200 dark:border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
                     >
                         <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">
-                            60%
+                            3+
                         </div>
                         <div class="mt-2 text-gray-900 dark:text-white font-semibold">
-                            Reduction in MTTD
+                            Concurrent client projects managed simultaneously.
                         </div>
                         <div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                            Koinpark real-time operations dashboard
+                            Sourcedware - multi-client agency environment.
                         </div>
                     </div>
                 </div>

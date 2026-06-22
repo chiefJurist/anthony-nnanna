@@ -13,20 +13,13 @@
                 </h1>
                 <h2 class="mt-4 text-xl lg:text-2xl font-bold text-indigo-600 dark:text-indigo-400">
                     Senior Full-Stack Engineer <br />
-                    (Vue + Laravel + PHP + Rust)
+                    (Vue + Laravel + PHP + DevOps)
                 </h2>
 
                 <p class="mt-8 lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                    I design and build scalable, maintainable, and high-performing web systems that
-                    balance elegant front-end experiences with robust back-end architecture. My code
-                    powers products that stay fast under pressure, from startups shipping daily to
-                    enterprises serving millions.
-                </p>
-
-                <p class="mt-6 lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-                    With over 5 years of full-stack experience, I’ve led cross-functional teams,
-                    optimized app performance by over 20%, and delivered reliable systems using
-                    Vue.js, Laravel, and modern CI/CD pipelines.
+                    I design and build full-stack web applications that are fast, maintainable, and
+                    built to scale from elegant front-end experiences to robust back-end
+                    architecture and production-ready DevOps pipelines.
                 </p>
 
                 <!-- CTA Buttons -->
@@ -51,7 +44,7 @@
                 <img
                     src="/public/img/tony-img.jpg"
                     alt="Anthony Nnanna - Full-stack Engineer"
-                    class="w-full max-w-md lg:max-w-lg rounded-full shadow-2xl object-cover ring-4 ring-indigo-600/20 dark:ring-indigo-600/30"
+                    class="w-full max-w-sm rounded-full shadow-2xl object-cover ring-4 ring-indigo-600/20 dark:ring-indigo-600/30"
                 />
             </div>
         </div>

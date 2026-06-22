@@ -28,7 +28,7 @@ const sendEmail = async () => {
             'a5i5PLdQj-oq74ZSr', // your Public Key (User ID)
         )
 
-        statusMessage.value = 'Message sent successfully! I’ll reply within 24 hours.'
+        statusMessage.value = 'Message sent successfully! I will reply within 24 hours.'
         form.value = { name: '', email: '', message: '' }
     } catch (error) {
         statusMessage.value = 'Oops! Something went wrong. Try again or email me directly.'
@@ -92,7 +92,7 @@ const sendEmail = async () => {
                                         Email
                                     </div>
                                     <a
-                                        href="mailto:anthony.nnanna@proton.me"
+                                        href="mailto:anthonynnannac@gmail.com"
                                         class="text-lg font-semibold text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition"
                                     >
                                         anthonynnannac@gmail.com
@@ -184,7 +184,7 @@ const sendEmail = async () => {
                     <!-- Resume Download -->
                     <div class="pt-6">
                         <a
-                            href="/Anthony-Nnanna.pdf"
+                            href="/ANTHONY-NNANNA.pdf"
                             download
                             class="inline-flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 text-white font-semibold rounded-xl shadow-lg transition transform hover:-translate-y-0.5"
                         >
@@ -220,7 +220,7 @@ const sendEmail = async () => {
                                 v-model="form.name"
                                 type="text"
                                 required
-                                class="w-full px-5 py-4 bg-gray-50 dark:bg-gray-800/70 border border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition"
+                                class="w-full px-5 py-4 bg-gray-50 dark:bg-gray-800/70 dark:text-white border border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition"
                                 placeholder="Your name"
                             />
                         </div>
@@ -234,7 +234,7 @@ const sendEmail = async () => {
                                 v-model="form.email"
                                 type="email"
                                 required
-                                class="w-full px-5 py-4 bg-gray-50 dark:bg-gray-800/70 border border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition"
+                                class="w-full px-5 py-4 bg-gray-50 dark:bg-gray-800/70 border dark:text-white border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition"
                                 placeholder="your.email@example.com"
                             />
                         </div>
@@ -248,7 +248,7 @@ const sendEmail = async () => {
                                 v-model="form.message"
                                 rows="6"
                                 required
-                                class="w-full px-5 py-4 bg-gray-50 dark:bg-gray-800/70 border border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition"
+                                class="w-full px-5 py-4 bg-gray-50 dark:bg-gray-800/70 dark:text-white border border-gray-300 dark:border-gray-700 rounded-xl focus:ring-2 focus:ring-indigo-600 focus:border-transparent transition"
                                 placeholder="Tell me about your project or opportunity..."
                             ></textarea>
                         </div>

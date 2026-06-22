@@ -46,6 +46,31 @@
                         >
                             Tailwind CSS
                         </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            TypeScript
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            React
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Inertia.js
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Nuxt
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Vite
+                        </div>
                     </div>
                 </div>
 
@@ -63,12 +88,17 @@
                         <div
                             class="px-5 py-3 bg-red-600 dark:bg-red-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                         >
-                            Redis
+                            PostgreSQL
                         </div>
                         <div
                             class="px-5 py-3 bg-purple-600 dark:bg-purple-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                         >
-                            Elasticsearch
+                            SQLite
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Redis
                         </div>
                     </div>
                 </div>
@@ -82,20 +112,30 @@
                         <div
                             class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                         >
+                            Laravel Echo
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Pusher
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
                             WebSockets
                         </div>
                         <div
                             class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                         >
-                            Laravel Echo / Pusher / Soketi
+                            Laravel Broadcasting
                         </div>
                     </div>
                 </div>
 
-                <!-- DevOps & Monitoring -->
+                <!-- DevOps & Infrastructure -->
                 <div class="space-y-6">
                     <h3 class="text-2xl font-bold text-gray-900 dark:text-white">
-                        DevOps & Monitoring
+                        DevOps & Infrastructure
                     </h3>
                     <div class="flex flex-wrap gap-3">
                         <div
@@ -106,23 +146,162 @@
                         <div
                             class="px-5 py-3 bg-gray-700 dark:bg-gray-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                         >
-                            GitHub Actions
+                            AWS
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-gray-700 dark:bg-gray-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Nginx
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Apache
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Laravel Forge
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-gray-700 dark:bg-gray-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Envoyer
                         </div>
                     </div>
                 </div>
 
                 <div class="space-y-6">
-                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Observability</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        CI/CD & Version Control
+                    </h3>
                     <div class="flex flex-wrap gap-3">
-                        <div
-                            class="px-5 py-3 bg-orange-600 dark:bg-orange-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                        >
-                            Prometheus
-                        </div>
                         <div
                             class="px-5 py-3 bg-teal-600 dark:bg-teal-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                         >
-                            Grafana
+                            GitHub Actions
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-orange-600 dark:bg-orange-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Git
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-stone-700 dark:bg-stone-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            GitHub
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-fuchsia-600 dark:bg-fuchsia-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            GitLab
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Testing</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            PHPUnit
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Pest
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Laravel Dusk
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Vue Test Utils
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Postman
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Thunder Client
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Insomnia
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">
+                        API & Integrations
+                    </h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div
+                            class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            REST
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            JSON:API
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Webhook Design
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Stripe
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Firebase
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Google Maps
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Practices</h3>
+                    <div class="flex flex-wrap gap-3">
+                        <div
+                            class="px-5 py-3 bg-emerald-600 dark:bg-emerald-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            TDD
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-emerald-600 dark:bg-emerald-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            SOLID
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-zinc-700 dark:bg-zinc-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Repository Pattern
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-emerald-600 dark:bg-emerald-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Service Layer
+                        </div>
+                        <div
+                            class="px-5 py-3 bg-zinc-700 dark:bg-zinc-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                        >
+                            Code Review
                         </div>
                     </div>
                 </div>
