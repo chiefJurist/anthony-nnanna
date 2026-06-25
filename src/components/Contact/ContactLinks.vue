@@ -110,7 +110,7 @@
         <!-- Resume Download -->
         <div class="pt-6">
             <a
-                href="/ANTHONY-NNANNA.pdf"
+                href="/Anthony-Nnanna.pdf"
                 download
                 class="inline-flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 dark:bg-indigo-500 dark:hover:bg-indigo-600 text-white font-semibold rounded-xl shadow-lg transition transform hover:-translate-y-0.5"
             >

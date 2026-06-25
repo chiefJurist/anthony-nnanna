@@ -24,7 +24,7 @@
                 </h1>
                 <h2 class="mt-4 text-xl lg:text-2xl font-bold text-indigo-600 dark:text-indigo-400">
                     Senior Full-Stack Engineer. <br />
-                    (Vue.js + Laravel + PHP + DevOps)
+                    (Vue.js + Laravel + React + React Native + PHP + DevOps)
                 </h2>
 
                 <p class="mt-8 lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">

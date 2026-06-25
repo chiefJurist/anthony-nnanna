@@ -17,6 +17,21 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
+                    React
+                </div>
+                <div
+                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    React Native
+                </div>
+                <div
+                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    Node.js
+                </div>
+                <div
+                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
                     PHP
                 </div>
                 <div
@@ -28,11 +43,6 @@
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
                     TypeScript
-                </div>
-                <div
-                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                >
-                    React
                 </div>
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
