@@ -17,9 +17,9 @@
 
                 <p class="mt-8 lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                     I design, build, optimize, maintain and scale full-stack web applications to be
-                    fastand durable. I have a strong affinity for engineering and martial arts and I
-                    preach them every day. I enjoy solving problems and I have an admiration for
-                    going all out.
+                    fast and durable. I have a strong affinity for engineering and martial arts and
+                    I preach them every day. I enjoy solving problems and I have an admiration for
+                    striving to the fullest.
                 </p>
 
                 <!-- CTA Buttons -->
