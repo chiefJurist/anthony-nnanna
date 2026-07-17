@@ -4,12 +4,12 @@
         <div
             class="bg-white dark:bg-gray-900/90 border border-gray-200 dark:border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
         >
-            <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">48hrs</div>
+            <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">11+</div>
             <div class="mt-2 text-gray-900 dark:text-white font-semibold">
-                Concurrency-safe trading engine delivered.
+                Production apps optimized, scaled and shipped globally.
             </div>
             <div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                Limit-Order Exchange Engine - technical assessment
+                Laravel, Vue, React, Node.js, Nuxt, PHP
             </div>
         </div>
 
@@ -17,12 +17,12 @@
         <div
             class="bg-white dark:bg-gray-900/90 border border-gray-200 dark:border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
         >
-            <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">7+</div>
+            <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">40%</div>
             <div class="mt-2 text-gray-900 dark:text-white font-semibold">
-                Years shipping production web applications.
+                API response time optimized.
             </div>
             <div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                Gigabyte Developers, Sourcedware, Jars of Glory NGO
+                MySQL PostgreSQL query optimization Redis caching.
             </div>
         </div>
 
@@ -30,12 +30,12 @@
         <div
             class="bg-white dark:bg-gray-900/90 border border-gray-200 dark:border-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
         >
-            <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">3+</div>
+            <div class="text-4xl font-black text-indigo-600 dark:text-indigo-400">8 mins</div>
             <div class="mt-2 text-gray-900 dark:text-white font-semibold">
-                Concurrent client projects managed simultaneously.
+                Deployment time via CI/CD
             </div>
             <div class="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                Sourcedware - multi-client agency environment.
+                GitHub Actions and Docker reduced 45 minutes deployment.
             </div>
         </div>
     </div>
