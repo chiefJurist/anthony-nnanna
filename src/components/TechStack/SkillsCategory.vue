@@ -22,11 +22,6 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    React Native
-                </div>
-                <div
-                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                >
                     Node.js
                 </div>
                 <div
@@ -42,12 +37,12 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    TypeScript
+                    JavaScript
                 </div>
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Inertia.js
+                    TypeScript
                 </div>
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
@@ -86,32 +81,57 @@
                 >
                     Redis
                 </div>
+                <div
+                    class="px-5 py-3 bg-blue-600 dark:bg-blue-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    MongoDB
+                </div>
+                <div
+                    class="px-5 py-3 bg-violet-600 dark:bg-violet-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    Query Optimization
+                </div>
             </div>
         </div>
 
-        <!-- Real-time & Event-Driven -->
+        <!-- API & Integrations -->
         <div class="space-y-6">
-            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Real-time Systems</h3>
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">API & Integrations</h3>
             <div class="flex flex-wrap gap-3">
                 <div
-                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Laravel Echo
+                    REST APIs
                 </div>
                 <div
-                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Pusher
+                    JSON:API
                 </div>
                 <div
-                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    WebSockets
+                    Webhook Design
                 </div>
                 <div
-                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Laravel Broadcasting
+                    Microservices
+                </div>
+                <div
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    Stripe
+                </div>
+                <div
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    FIrebase
+                </div>
+                <div
+                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    OAuth
                 </div>
             </div>
         </div>
@@ -150,7 +170,7 @@
                 <div
                     class="px-5 py-3 bg-gray-700 dark:bg-gray-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Envoyer
+                    Kubernetes
                 </div>
             </div>
         </div>
@@ -181,6 +201,11 @@
                 >
                     GitLab
                 </div>
+                <div
+                    class="px-5 py-3 bg-pink-600 dark:bg-pink-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    Bitbucket
+                </div>
             </div>
         </div>
 
@@ -201,11 +226,6 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Laravel Dusk
-                </div>
-                <div
-                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                >
                     Vue Test Utils
                 </div>
                 <div
@@ -216,49 +236,39 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Thunder Client
+                    Playwright
                 </div>
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Insomnia
+                    Vitest
                 </div>
             </div>
         </div>
 
-        <!-- API & Integrations -->
+        <!-- Real-time & Event-Driven -->
         <div class="space-y-6">
-            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">API & Integrations</h3>
+            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Real-time Systems</h3>
             <div class="flex flex-wrap gap-3">
                 <div
-                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    REST
+                    Laravel Echo
                 </div>
                 <div
-                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    JSON:API
+                    Pusher
                 </div>
                 <div
-                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Webhook Design
+                    WebSockets
                 </div>
                 <div
-                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-cyan-600 dark:bg-cyan-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Stripe
-                </div>
-                <div
-                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                >
-                    Firebase
-                </div>
-                <div
-                    class="px-5 py-3 bg-sky-600 dark:bg-sky-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                >
-                    Google Maps
+                    Broadcasting
                 </div>
             </div>
         </div>
@@ -267,6 +277,11 @@
         <div class="space-y-6">
             <h3 class="text-2xl font-bold text-gray-900 dark:text-white">Practices</h3>
             <div class="flex flex-wrap gap-3">
+                <div
+                    class="px-5 py-3 bg-emerald-600 dark:bg-emerald-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    Performance Optimization
+                </div>
                 <div
                     class="px-5 py-3 bg-emerald-600 dark:bg-emerald-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
@@ -283,7 +298,7 @@
                     Repository Pattern
                 </div>
                 <div
-                    class="px-5 py-3 bg-emerald-600 dark:bg-emerald-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                    class="px-5 py-3 bg-zinc-700 dark:bg-zinc-600 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
                     Service Layer
                 </div>
