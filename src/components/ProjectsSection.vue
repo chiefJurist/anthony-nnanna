@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import ExchangeEngine from './Projects/ExchangeEngine.vue'
 import JarsOfGlory from './Projects/JarsOfGlory.vue'
+import MercaturaBot from './Projects/MercaturaBot.vue'
 import ProjectsTitle from './Projects/ProjectsTitle.vue'
 import TruvoTrade from './Projects/TruvoTrade.vue'
 </script>
@@ -24,6 +25,9 @@ import TruvoTrade from './Projects/TruvoTrade.vue'
 
                 <!-- Project 3: TruvoTrade -->
                 <TruvoTrade />
+
+                <!-- Project 4: Mercatura -->
+                <MercaturaBot />
             </div>
         </div>
     </section>
