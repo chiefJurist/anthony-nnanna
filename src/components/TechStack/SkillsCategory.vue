@@ -32,11 +32,6 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Tailwind CSS
-                </div>
-                <div
-                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
-                >
                     JavaScript
                 </div>
                 <div
@@ -47,12 +42,22 @@
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
+                    Python
+                </div>
+                <div
+                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
                     Nuxt
                 </div>
                 <div
                     class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
                 >
-                    Vite
+                    Tailwind CSS
+                </div>
+                <div
+                    class="px-5 py-3 bg-indigo-600 dark:bg-indigo-500 text-white rounded-xl font-semibold shadow-md hover:scale-105 hover:shadow-xl transition"
+                >
+                    Next.js
                 </div>
             </div>
         </div>
